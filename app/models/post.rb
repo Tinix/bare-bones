@@ -9,6 +9,10 @@
 #  updated_at :datetime         not null
 #
 class Post < ApplicationRecord
+  # Validations
   validates :title, presence: true, length: { minimum: 5 } 
   validates :body, presence: true
+
+  # Associations
+  has_many :comments
 end

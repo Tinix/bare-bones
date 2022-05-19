@@ -11,6 +11,12 @@
 <small class="date">
   Submitted <%= time_ago_in_words(@post.created_at) %> Ago...
 </small>
+<p></p>
+<h4 class="text-secondary"><%= @post.comments.count %> Comment</h4>
+<%= render @post.comments %>
+
+<h3 class="text-secondary">Add a comment:</h3>
+<%= render "comments/form" %>
 
 <br />
 <%#= link_to 'Edit article', edit_post_path(@post), class:"btn btn-success btn-sm" %>
