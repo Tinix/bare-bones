@@ -1,7 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-
-
 #sidebar { 
   width: 250px;
   position: fixed;
@@ -37,4 +35,8 @@
         color: #33acb7;
       }
     }
+}
+
+a {
+  text-decoration: none;
 }
