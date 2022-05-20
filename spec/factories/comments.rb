@@ -19,8 +19,8 @@
 #
 FactoryBot.define do
   factory :comment do
-    email { "MyString" }
-    body { "MyText" }
-    post { nil }
+    email { Faker::Internet.email }
+    body { Faker::Lorem.paragraph }
+    post
   end
 end
