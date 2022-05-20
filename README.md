@@ -17,7 +17,6 @@ Things you may want to cover:
 
 * Postgresql version 14.3
 
-* ...
 
 ## Initial setup
 
@@ -33,7 +32,8 @@ Things you may want to cover:
 4. Load seed data (Posts)
 *	$rake db:seed
 		
-5. * $yarn install --checkfiles
+5. Check yarn files 
+* $yarn install --checkfiles
 
 6. Open other terminal and run 
  * $./bin/webpack-dev-server
@@ -43,3 +43,6 @@ Things you may want to cover:
 	
 8. Now you should have a running rails instance (the Bare-bone blog App)
 *	http://localhost:3000/
+
+9. Admin Panel
+*	http://localhost:3000/admin/index
