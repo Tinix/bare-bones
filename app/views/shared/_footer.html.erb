@@ -1,0 +1,19 @@
+<footer class="sticky-footer bg-white footer">
+  <div class="container my-auto">
+    <div class="copyright text-center my-auto">
+      <span>Copyright &copy; <%= Date.today.year %> - <%= Rails.configuration.application_name %></span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(180deg, lightgrey 10%, lightgrey 100%) !important;
+    color: white;
+    text-align: center;
+  }
+</style>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= Rails.configuration.application_name %></title>
+    <title>Bare Bones Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,12 +10,12 @@
   </head>
 
   <body>
-    <%= render 'shared/sidebar' %>
-    <%= render 'shared/navbar' %>
+    <%= render 'layouts/admin-panel/partials/sidebar' %>
+    <%= render 'layouts/admin-panel/partials/navbar' %>
     <div class="container"> 
       <%= yield %>
       </div>
-    <%= render 'shared/footer' %>
+    <%= render 'layouts/admin-panel/partials/footer' %>
   </body>
 </html>
 

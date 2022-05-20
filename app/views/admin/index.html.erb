@@ -1,0 +1,32 @@
+<%= render 'layouts/admin-panel/main' %>
+<br />
+<div class="container">
+<div class="col-m-3 position-relative">
+  <%= link_to 'New Article', new_post_path, class:'btn btn-primary btn-sm' %>
+</div>
+<br />
+<table class="table table-success table-striped-columns">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Article</th>
+      <th scope="col">Description</th>
+      <th scope="col">Show Item</th>
+      <th scope="col">Edit Item</th>
+      <th scope="col">Delete Item</th>
+    </tr>
+  </thead>
+  <% @posts.each do |post| %>
+    <tbody>
+      <tr>
+        <th scope="row"><%= post.id %></th>
+        <td><%= post.title %></td>
+        <td><%= post.body %></td>
+        <td><%= link_to 'Show', post, class:'btn btn-secondary btn-sm' %></td>
+        <td><%= link_to 'Edit', edit_post_path(post), class:'btn btn-success btn-sm'%></td>
+        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn btn-danger btn-sm' %></td>
+      </tr>
+    <% end %>
+    </tbody>
+</table>
+</div>

@@ -7,10 +7,14 @@ require 'faker'
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-5.times do
-  post = Post.create(
-    title: Faker::Lorem.sentence, 
-    body: Faker::Lorem.paragraph
-  )
-  puts "#{post.id} post was successfully created"
+if Post.all == 0
+  10.times do
+    post = Post.create(
+      title: Faker::Lorem.sentence, 
+      body: Faker::Lorem.paragraph
+    )
+    puts "#{post.id} post was successfully created"
+  end
 end
+
+

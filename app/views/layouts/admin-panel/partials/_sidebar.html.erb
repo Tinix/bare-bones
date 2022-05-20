@@ -1,0 +1,16 @@
+<div id="sidebar">
+  <div class="logo text-center">
+    <h2><%= link_to 'Dashboard', admin_index_path %></h2>
+    <%= link_to root_path do %>
+      <%= image_tag "admin-logo2" %>
+    <% end %>
+  </div>
+<br />
+  <ul>
+    <li><%= link_to 'Home', root_path %></li>
+    <li>Setting</li>
+      <li>Posts</li>
+    <li>Comments</li>
+    <li>Logout</li>
+  </ul>
+</div>
