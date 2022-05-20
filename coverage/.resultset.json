@@ -228,8 +228,8 @@
         null,
         1,
         1,
-        16,
-        16,
+        1,
+        1,
         1,
         null,
         null
@@ -247,8 +247,8 @@
         null,
         1,
         1,
-        16,
-        16,
+        1,
+        1,
         null,
         null
       ],
@@ -327,68 +327,22 @@
         null,
         null
       ],
-      "/home/tinix/workspaces-2015-2022/crosschq/bare-bones/app/models/comment.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/home/tinix/workspaces-2015-2022/crosschq/bare-bones/app/controllers/comments_controller.rb": [
         1,
         null,
         1,
+        0,
+        0,
         null,
+        0,
         null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
         null
       ],
-      "/home/tinix/workspaces-2015-2022/crosschq/bare-bones/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/home/tinix/workspaces-2015-2022/crosschq/bare-bones/app/models/post.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
+      "/home/tinix/workspaces-2015-2022/crosschq/bare-bones/app/controllers/application_controller.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1653012656
+    "timestamp": 1653053983
   }
 }
