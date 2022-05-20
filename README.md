@@ -25,21 +25,21 @@ Things you may want to cover:
 	git clone git@github.com:Tinix/bare-bones.git
 
 2. Run bundler from of the project
-	$bundle install
+*	$bundle install
 	
 3. Create database (Assuming postgres is correctly setup and is using default settings)
-	$rake db:create && rake db:migrate
+*	$rake db:create && rake db:migrate
 
 4. Load seed data (Posts)
-	$rake db:seed
+*	$rake db:seed
 		
-5. yarn install --checkfiles
+5. * $yarn install --checkfiles
 
-Open other terminal and run 
-6. $./bin/webpack-dev-server
+6. Open other terminal and run 
+ * $./bin/webpack-dev-server
 
 7. Open second terminal on run
-	$rails server
+*	$rails server
 	
 8. Now you should have a running rails instance (the Bare-bone blog App)
-	http://localhost:3000/
+*	http://localhost:3000/
